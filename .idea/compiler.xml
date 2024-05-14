@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/../cangqiong-takeout-master/sky/sky-pojo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../cangqiong-takeout-master0/sky/sky-pojo/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demoDB" />
+        <module name="sky-common" />
+        <module name="sky-pojo" />
+        <module name="demo" />
+        <module name="sky-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sky" target="1.5" />
+      <module name="sky-common (1)" target="11" />
+      <module name="sky-pojo (1)" target="11" />
+      <module name="sky-server (1)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="demoDB" options="-parameters" />
+      <module name="sky-common" options="-parameters" />
+      <module name="sky-common (1)" options="-parameters" />
+      <module name="sky-pojo" options="-parameters" />
+      <module name="sky-pojo (1)" options="-parameters" />
+      <module name="sky-server" options="" />
+      <module name="sky-server (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

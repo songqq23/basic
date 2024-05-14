@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demodb.Mapper.UserMapper">
+    <resultMap id="PageQueryResultMap" type="com.example.demodb.DTO.PageQueryVO">
+        <result property="loginId" column="loginId"/>
+        <result property="name" column="name"/>
+        <result property="type" column="type"/>
+        <result property="createTime" column="create_time" javaType="java.time.LocalDateTime"/>
+    </resultMap>
+    <select id="pagequery" resultMap="PageQueryResultMap">
+        select loginId,name,type,create_time from miyuuser
+        <where>
+            <if test="name != null and name != ''">
+                and name like concat('%',#{name},'%')
+            </if>
+        </where>
+        order by create_time desc
+    </select>
+</mapper>

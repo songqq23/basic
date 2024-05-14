@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demoDB/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master/sky/sky-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master/sky/sky-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master/sky/sky-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master/sky/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master/sky/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master0/sky/sky-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master0/sky/sky-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master0/sky/sky-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master0/sky/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cangqiong-takeout-master0/sky/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sky-take-out-master/sky-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sky-take-out-master/sky-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sky-take-out-master/sky-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sky-take-out-master/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../sky-take-out-master/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
